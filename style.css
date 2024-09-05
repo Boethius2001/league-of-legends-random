@@ -1,0 +1,151 @@
+
+body{
+    height: 100%;
+    background-image: url(Images/Background/Background.jpg);
+    background-size: cover;
+}
+.Lane-Buttons{
+    border: 3px solid rgb(165, 125, 48);
+    background-color: rgb(22, 29, 36);
+    color: rgb(205, 190, 145);
+    font-weight: bold;
+
+    background-size: cover;
+    background-position: center;
+
+    background-size: 70%;
+    background-repeat: no-repeat;
+
+    margin: 10px;
+    width: 75px;
+    height: 75px;
+}
+.Lane-Buttons:hover{
+    cursor: pointer;
+    border-color: rgb(220, 193, 136);
+    background-color: rgb(22, 29, 36);
+}
+.Lane-Buttons:active{
+    border-color: rgb(70, 55, 20);
+    background-color: rgb(22, 29, 36);
+}
+.Lane-Buttons-Clicked{
+    border-color: rgb(70, 55, 20);
+    background-color: rgb(22, 29, 36);
+}
+
+
+#Main-Container{
+    border: 3px solid rgb(0, 27, 51);
+    border-radius: 10px;
+    width: 70%;
+    height: 95%;
+    
+    text-align: center;
+    margin: auto;
+
+    background-color: rgba(2, 11, 24, 0.877);
+
+    color: rgb(21, 189, 215);
+}
+
+#Title-Container{
+    font-size: 1.5em;
+}
+#Button-Container{
+    margin-top: 20px;
+}
+#Roll-Button{
+    margin: 20px;
+    width: 200px;
+    height: 75px;
+
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(253, 253, 253);
+    background-image: url(Images/Background/Roll-Button.png);
+    justify-content: center;
+    border: 3px solid rgb(38,157,158);
+}
+#Roll-Button:hover{
+    cursor: pointer;
+    border-color: white;
+    background-color: rgb(11, 112, 143);
+
+}
+#Roll-Button:active{
+    cursor: auto;
+    border-color: rgb(138, 165, 177);
+    background-color: rgb(30, 35, 40);
+}
+
+#Champion-Box{
+    border: 4px solid rgb(165, 125, 48);
+    background-color: rgba(2, 11, 24,);;
+    border-radius: 2px;
+    width: 500px;
+    height: 500px;
+
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+
+    background-image: url(Champions/indir.png);
+}
+#Champion-Box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#Top-Button{
+    background-image: url(Images/Lane-Buttons/Top.png);
+}
+#Jungle-Button{
+    background-image: url(Images/Lane-Buttons/Jungle.png);
+}
+#Mid-Button{
+    background-image: url(Images/Lane-Buttons/Middle.png);
+}
+#Bot-Button{
+    background-image: url(Images/Lane-Buttons/Bot.png);
+}
+#Sup-Button{
+    background-image: url(Images/Lane-Buttons/Sup.png);
+}
+
+/*
+#Top-Button:hover{
+    background-image: url(Images/Lane-Buttons/Top-Hover.png);
+}
+#Jungle-Button:hover{
+    background-image: url(Images/Lane-Buttons/Jungle-Hover.png);
+}
+#Mid-button:hover{
+    background-image: url(Images/Lane-Buttons/Mid-Hover.png);
+}
+#Bot-Button:hover{
+    background-image: url(Images/Lane-Buttons/Bot-Hover.png);
+}
+#Sup-Button:hover{
+    background-image: url(Images/Lane-Buttons/Sup-Hover.png);
+}
+*/
+
+/*
+#Top-Button:active{
+    background-image: url(Images/Lane-Buttons/Top-Active.png);
+}
+#Jungle-Button:active{
+    background-image: url(Images/Lane-Buttons/Jungle-Active.png);
+}
+#Mid-Button:active{
+    background-image: url(Images/Lane-Buttons/Mid-Active.png);
+}
+#Bot-Button:active{
+    background-image: url(Images/Lane-Buttons/Bot-Active.png);
+}
+#Sup-Button:active{
+    background-image: url(Images/Lane-Buttons/Sup-Active.png);
+}
+*/
