@@ -35,11 +35,12 @@ body{
 }
 
 
+
 #Main-Container{
     border: 3px solid rgb(0, 27, 51);
     border-radius: 10px;
     width: 70%;
-    height: 95%;
+    height: 98%;
     
     text-align: center;
     margin: auto;
