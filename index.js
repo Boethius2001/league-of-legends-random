@@ -94,7 +94,7 @@ const SupChamps = ["Alistar","Bard","Blitzcrank","Brand","Braum",
         "Heimerdinger","Hwei","Janna","Karma","Leona","Lulu","Lux",
         "Maokai","Milio","Morgana","Nami","Nautilus","Neeko","Pantheon",
         "Pyke","Rakan","Rell","Renata","Senna","Seraphine","Sona","Soraka",
-        "Swain","Taric","thresh","Velkoz","Yuumi","Zilean","Zyra"
+        "Swain","Taric","Thresh","Velkoz","Yuumi","Zilean","Zyra"
 ];
 
 TopBtn.addEventListener('click', function(){
